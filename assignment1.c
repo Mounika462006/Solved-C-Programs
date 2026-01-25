@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
-    float a=10;
-    printf("%.2f",a);
+    int a=56,b=76;
+    printf("%d %d\n",a,b);
     return 0;
     
 }
