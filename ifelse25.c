@@ -16,7 +16,7 @@ int main(){
         printf("Result = %d",a-b);
         break;
     case 3:
-        printf("Result = %d",a*b);
+        printf("Result = %d",a*b);switch1.c
         break;
     case 4:
         printf("Result = %d",a/b);
