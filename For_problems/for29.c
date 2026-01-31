@@ -1,11 +1,16 @@
 #include<stdio.h>
 int main(){
-    int salary;
+    int salary,a;
     scanf("%d",&salary);
     int absent;
     scanf("%d",&absent);
-    int fine =100;
-    int a = salary -(absent*100);
-    printf("Final Salary : %d",a); 
+    for(int i=1; i<=absent;i++){
+        a=i*100;
+
+    }
+
+    int aa = salary-a;
+    printf("Final Salary : %d",aa); 
     return 0;
+   
 }
