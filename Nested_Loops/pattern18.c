@@ -1,13 +1,9 @@
-
-#include <stdio.h>
-
-int main() {
-    int n;
-    scanf("%d", &n);
-
-    for (int i = 0; i < n; i++) {               
-        for (char ch = 'A' + n - 1 - i;ch <= 'A' + n - 1;ch++) {
-            printf("%c ", ch);
+#include<stdio.h>
+int main(){
+    int i,j;
+    for(i='E';i>='A';i--){
+        for(j=i;j<='E';j++){
+            printf("%C",j);
         }
         printf("\n");
     }
