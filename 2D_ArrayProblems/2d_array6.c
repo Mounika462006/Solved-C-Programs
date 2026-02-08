@@ -14,19 +14,24 @@ int main(){
             scanf("%d",&arr[i][j]);
         }
     }
-    int avrg,i;
-    int max=0;
-    for( i=0;i<row;i++){
+
+    int minsum=0;
+    int minindex=0;
+
+    for(int j=0;j<column;j++){
+        minsum=minsum+arr[0][j];
+    }
+
+    for(int i=0;i<row;i++){
         int sum=0;
-        for(int j=0;j<column;j++){
+        for(int j=0; j<column;j++){
             sum=sum+arr[i][j];
         }
-        avrg=sum/column;
-         if(max<avrg){
-            max=avrg;
-            printf("Output : %d",i+1);
+        if(sum<minsum){
+            minsum=sum;
+            minindex=i;
         }
     }
-   
+    printf("%d",minindex);
     return 0;
 }
