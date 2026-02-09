@@ -13,23 +13,6 @@ int main(){
             scanf("%d",&arr[i][j]);
         }
     }
-    // int max1=arr[i][j];//45
-    // int max2=-1;
-    // for(int i=0;i<row;i++){
-    //     for(int j=1;j<column;j++){
-    //         if(max1<arr[i][j]){
-    //             max2=max1;
-    //             max1=arr[i][j];
-                
-    //         }
-    //         else if(max2 >arr[i][j] && max1!=arr[i][j]){
-    //             max2=arr[i][j];
-    //         }
-    //     }
-    //     printf("Second : %d",max2);
-    // }
-    
-
     int first =arr[0][0];
     for(int i=1;i<row;i++){
         for(int j=0; j<column;j++){
@@ -48,4 +31,5 @@ int main(){
     }
     printf("2) %d",second);
     return 0;
+
 }
