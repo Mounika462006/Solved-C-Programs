@@ -1,27 +1,15 @@
-#include <stdio.h>
-
-int main() {
-    int fuel, N;
-    int i = 0;
-    int consumed;
-    int completedTrips = 0;
-    scanf("%d", &fuel);
-    scanf("%d", &N);
-
-    while (i < N) {
-        scanf("%d", &consumed);
-
-        if (fuel >= consumed) {
-            fuel = fuel - consumed;
-            completedTrips++;
-        } else {
-            break; 
+#include<stdio.h>
+int main(){
+    int n;
+    scanf("%d",&n);
+    int a,count=0;
+    for(int i=1;i<=n;i++){
+        scanf("%d",&a);
+        if(a==0){
+            count++;
+        }else if(a==1){
+            
         }
-
-        i++;
     }
-    printf("Completed Trips: %d\n", completedTrips);
-    printf("Remaining Fuel: %d\n", fuel);
-
-    return 0;
+    printf("Longest Failure Streak: %d",count);
 }
