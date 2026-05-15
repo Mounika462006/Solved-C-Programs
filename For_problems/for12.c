@@ -12,7 +12,6 @@ int main(){
         product = product*num;// 
     }
     printf("%d",product);
-    }
-    
+    }
     return 0;
 }
