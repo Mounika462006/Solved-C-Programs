@@ -17,7 +17,6 @@ int main(){
             count++;
         }
     }
-    
     printf("Frequency Count: %d",count);
     return 0;
 }
