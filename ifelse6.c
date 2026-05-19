@@ -10,5 +10,4 @@ int main() {
         printf("Not a Vowel");
     }
     return 0;
-
 }
