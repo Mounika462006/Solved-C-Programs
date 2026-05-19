@@ -12,6 +12,6 @@ int main(){
         }
         i++;
     }
-    
+ 
     printf("%d",count);
 }
