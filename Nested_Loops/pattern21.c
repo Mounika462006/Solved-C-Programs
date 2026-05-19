@@ -11,7 +11,6 @@ int main() {
             int left = j;
             int bottom = size - 1 - i;
             int right = size - 1 - j;
-
             int min = top;
 
             if (left < min)
