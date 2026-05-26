@@ -10,7 +10,7 @@ int reverse(int a){
 int main(){
     int a;
     scanf("%d",&a);
-    int rev=reverse(a);
+    int rev=reverse(a);  
     printf("%d",rev);
 
     return 0;
