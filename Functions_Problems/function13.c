@@ -12,7 +12,7 @@ int main(){
     scanf("%d",&num);
     int pow;
     scanf("%d",&pow);
-    int a=power(num,pow);
+    int a=power(num,pow);    
     printf("%d",a);
     return 0;
 }
