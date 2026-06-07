@@ -4,7 +4,7 @@ int main(){
     fgets(str1,sizeof(str1),stdin);
     char str2[100];
     char *p1=str1;
-    char *p2=str2;
+    char *p2=str2;   
 
     while (*p1!='\0' && *p2!='\n')
     {
