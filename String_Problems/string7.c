@@ -11,8 +11,8 @@ int main(){
             str[i]!='A'&& str[i] !='E'&& str[i] !='I' && str[i] !='O' && str[i] !='U'
         ){
             count++;
-        }
-        i++;
+        } 
+        i++;     
     }
     printf("%d",count);
 
