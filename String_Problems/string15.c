@@ -10,7 +10,7 @@ int main(){
             count++;
         }
 
-        i++;
+        i++;  
     }
     printf("%d",count);
     return 0;
