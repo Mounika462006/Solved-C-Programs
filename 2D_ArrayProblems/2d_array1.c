@@ -13,7 +13,6 @@ int main(){
             scanf("%d",&arr[i][j]);
         }
     }
-
     
      for(int i=0;i<row;i++){
         int sum=0;
