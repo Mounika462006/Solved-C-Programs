@@ -9,7 +9,6 @@ int max(int *n,int *arr){
     }
     return maxi;
 }
-
 int main(){
     int n;
     scanf("%d",&n);
