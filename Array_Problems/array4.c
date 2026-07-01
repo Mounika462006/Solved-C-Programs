@@ -13,7 +13,7 @@ int main(){
         if(max<arr[j]){
             max=arr[j];
         }
-    }
+    }                     
     printf("Highest votes = %d\n",max);
     return 0;
 }
