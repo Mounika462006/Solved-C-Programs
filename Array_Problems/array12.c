@@ -11,7 +11,7 @@ int main(){
         }
         else{
             add++;
-        }
+        }                      
     }
     printf("Even: %d\n",count);
     printf("Odd: %d",add);
