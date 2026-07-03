@@ -16,9 +16,9 @@ void menu(int a,int b,char exp){
         break;
     default:
         printf("Invalid input");
-        break;
+        break;     
     }
-}
+}   
 int main(){
     int a,b;
     scanf("%d%d",&a,&b);
