@@ -6,7 +6,7 @@ void leap(int year){
         printf("Not Leap Year");
     }
 }
-
+      
 int main(){
     int year;
     scanf("%d",&year);
