@@ -10,8 +10,8 @@ int main() {
 
     while(i < N) {
         scanf("%d", &changes[i]);
-        i++;
-    }
+        i++;     
+    } 
 
     int negativeCount = 0;
     i = 0;
@@ -20,7 +20,7 @@ int main() {
         balance += changes[i];
 
         if(balance < 0) {
-            negativeCount++;
+             negativeCount++;
         }
 
         i++;
