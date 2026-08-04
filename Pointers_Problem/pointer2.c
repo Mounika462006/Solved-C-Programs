@@ -20,4 +20,4 @@ int main(){
     int a= max(&n,arr);
     printf("%d",a);
     return 0;   
-}
+}
