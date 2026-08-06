@@ -6,7 +6,6 @@ int gcd(int a,int b){
         {
             c= i;
         }
-        
     }
     return c;
 }
