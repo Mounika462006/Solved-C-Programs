@@ -11,7 +11,7 @@ void armstrong(int num){
         printf("Not Armstrong");
     }
 }
-
+ 
 int main(){
     int num;
     scanf("%d",&num);
