@@ -13,4 +13,4 @@ int main(){
     int digit=counts(num);
     printf("%d",digit);
     return 0;
-}
+} 
