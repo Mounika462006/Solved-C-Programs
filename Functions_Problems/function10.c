@@ -11,6 +11,6 @@ int main(){
     scanf("%d",&n);
     int sum=natural(n);
     printf("%d",sum);
-
+ 
     return 0;
 }
